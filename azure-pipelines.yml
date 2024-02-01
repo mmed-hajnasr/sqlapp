@@ -22,18 +22,22 @@ steps:
     restoreSolution: '$(solution)'
 
 - task: DotNetCoreCLI@2
+  displayName: Build
   inputs:
-    command: 'build'
+    command: build
     projects: '**/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
 - task: DotNetCoreCLI@2
   inputs:
-    command: 'publish'
-    publishWebProjects: true
-    arguments: '--configuration $(buildConfiguration) --out $(Build.ArtifactStagingDirectory)'
+    command: publish
+    publishWebProjects: True
+    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: True
+
+# We still need to take the staging directory files and publish it as a build artifact
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Build.ArtifactStagingDirectory)'
-    artifact: 'sqlapp-artifact'
+    targetPath: '$(Build.ArtifactStagingDirectory)' 
+    artifactName: 'sqlapp-artifact'
