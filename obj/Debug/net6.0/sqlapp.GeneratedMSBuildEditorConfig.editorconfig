@@ -40,6 +40,34 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/mmed/Projects/sqlapp/sqlapp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = c3FsYXBwL1BhZ2VzL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mmed/Projects/sqlapp/sqlapp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = c3FsYXBwL1BhZ2VzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mmed/Projects/sqlapp/sqlapp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = c3FsYXBwL1BhZ2VzL1ByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mmed/Projects/sqlapp/sqlapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = c3FsYXBwL1BhZ2VzL1NoYXJlZC9fVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mmed/Projects/sqlapp/sqlapp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = c3FsYXBwL1BhZ2VzL19WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mmed/Projects/sqlapp/sqlapp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = c3FsYXBwL1BhZ2VzL19WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/mmed/Projects/sqlapp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-66slokuz5g
+
+[/home/mmed/Projects/sqlapp/sqlapp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = c3FsYXBwL1BhZ2VzL1NoYXJlZC9fTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-v83vigd27i
