@@ -1,20 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/home/mmed/Projects/sqlapp/sqlapp.csproj": {}
+    "C:\\tmp2\\sqlapp\\sqlapp\\sqlapp.csproj": {}
   },
   "projects": {
-    "/home/mmed/Projects/sqlapp/sqlapp.csproj": {
+    "C:\\tmp2\\sqlapp\\sqlapp\\sqlapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mmed/Projects/sqlapp/sqlapp.csproj",
+        "projectUniqueName": "C:\\tmp2\\sqlapp\\sqlapp\\sqlapp.csproj",
         "projectName": "sqlapp",
-        "projectPath": "/home/mmed/Projects/sqlapp/sqlapp.csproj",
-        "packagesPath": "/home/mmed/.nuget/packages/",
-        "outputPath": "/home/mmed/Projects/sqlapp/obj/",
+        "projectPath": "C:\\tmp2\\sqlapp\\sqlapp\\sqlapp.csproj",
+        "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
+        "outputPath": "C:\\tmp2\\sqlapp\\sqlapp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/mmed/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -49,21 +57,10 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.26, 6.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.26, 6.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -72,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }
