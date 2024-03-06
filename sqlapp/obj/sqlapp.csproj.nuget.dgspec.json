@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\tmp2\\sqlapp\\sqlapp\\sqlapp.csproj": {}
+    "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\8. Azure Web App - Connection String\\sqlapp\\sqlapp\\sqlapp.csproj": {}
   },
   "projects": {
-    "C:\\tmp2\\sqlapp\\sqlapp\\sqlapp.csproj": {
+    "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\8. Azure Web App - Connection String\\sqlapp\\sqlapp\\sqlapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tmp2\\sqlapp\\sqlapp\\sqlapp.csproj",
+        "projectUniqueName": "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\8. Azure Web App - Connection String\\sqlapp\\sqlapp\\sqlapp.csproj",
         "projectName": "sqlapp",
-        "projectPath": "C:\\tmp2\\sqlapp\\sqlapp\\sqlapp.csproj",
+        "projectPath": "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\8. Azure Web App - Connection String\\sqlapp\\sqlapp\\sqlapp.csproj",
         "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
-        "outputPath": "C:\\tmp2\\sqlapp\\sqlapp\\obj\\",
+        "outputPath": "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\8. Azure Web App - Connection String\\sqlapp\\sqlapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

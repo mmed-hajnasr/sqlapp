@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "whoaKNtQRMxmjJWL+DAclLZbN7baXaqQ0viiq/SBKvVleOf0668IJbcra0Jm8JtKwIlCyz+k0YYUd/kz5odxQA==",
+  "dgSpecHash": "1ZqzPQk9Z6oBhbV9QOPzRwSGdOWgssAihu7wne4q3+GFyOSlOvVsIs76bw4MWtApDjJ4m65ZeI1agLVLR/wRag==",
   "success": true,
-  "projectFilePath": "C:\\tmp2\\sqlapp\\sqlapp\\sqlapp.csproj",
+  "projectFilePath": "C:\\2022\\Azure-Recorded\\AZ-204\\2. Develop Azure compute solutions - Azure Web Apps\\8. Azure Web App - Connection String\\sqlapp\\sqlapp\\sqlapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Allan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
