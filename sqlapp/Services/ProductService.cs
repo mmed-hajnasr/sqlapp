@@ -31,6 +31,9 @@ namespace sqlapp.Services
 
             _connection.Open();
 
+            SqlCommand createTableCommand = new SqlCommand(_createTable, _connection);
+            createTableCommand.ExecuteNonQuery();
+
             SqlCommand _sqlcommand = new SqlCommand(_statement, _connection);
 
             using (SqlDataReader _reader = _sqlcommand.ExecuteReader())
