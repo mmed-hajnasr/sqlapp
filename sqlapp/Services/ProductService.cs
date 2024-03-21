@@ -14,18 +14,19 @@ namespace sqlapp.Services
         }
         private SqlConnection GetConnection()
         {
-            
+
             return new SqlConnection(_configuration.GetConnectionString("database"));
         }
         public List<Product> GetProducts()
         {
             List<Product> _product_lst = new List<Product>();
             // set up the tables if they don't exist
-            string _createTable = File.ReadAllText("setup.sql");
+            string path = Path.Combine(Environment.CurrentDirectory, "wwwroot", "setup.sql");
+            string _createTable = File.ReadAllText(path);
 
 
             string _statement = "SELECT ProductID,ProductName,Quantity from Products";
-            
+
             SqlConnection _connection = GetConnection();
 
             _connection.Open();
