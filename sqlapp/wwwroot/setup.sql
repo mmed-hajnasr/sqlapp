@@ -10,4 +10,11 @@ CREATE TABLE Products
      ProductName varchar(1000),
      Quantity int
 )
+
+INSERT INTO Products VALUES (1, 'tiles', 100)
+INSERT INTO Products VALUES (2, 'chairs', 200)
+INSERT INTO Products VALUES (3, 'tables', 300)
+INSERT INTO Products VALUES (4, 'brooms', 400)
+INSERT INTO Products VALUES (5, 'toilets', 500)
 END
+
