@@ -5,6 +5,8 @@
 
 trigger:
 - develop
+- pre-prod
+- prod
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -45,4 +47,4 @@ steps:
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(Build.ArtifactStagingDirectory)' 
-    artifactName: 'sqlapp-artifact'
+    artifactName: 'sqlapp-artifact-$(Build.SourceBranchName)'
